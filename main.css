@@ -1,0 +1,66 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 400px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.div-navbar{
+    position: fixed;
+    top: 0;
+    background-color: rgba(172, 170, 170, 0.87);
+    border-bottom: 2px solid black;
+}
+
+.nav-ul{
+    padding: 5px 10px 0 0;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-ul li{
+    margin: 0 50px 0 50px;
+}
+
+.addButton{
+    background-color: #C7CA22;
+    border: 2px solid;
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+    margin-left: 90px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#main-notes{
+    margin-top: 100px;
+    padding-bottom: 20px
+}
+.div-note{
+    margin: 39px 0px 0px 15px;
+}
+.note{
+    font-size: 16px;
+    display: flex;
+    width: 180px;
+    height: 80px;
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 20px 0px 0px 10px;
+    resize: none;
+    background-color: #C7CA22;
+    color: black;
+}
+#home-icon{
+    width: 28px;
+    left: 40px;
+    position: fixed;
+    top: 20px;
+}
+.date{
+    margin-left: 10px;
+    font-size: 13px;
+}

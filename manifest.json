@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Sticky Notes1",
+    "description": "Quickly write notes for faster effiency.",
+    "version": "1.0",
+    "action" : {
+        "default_popup": "main.html",
+        "default_title": "Sticky Notes"
+      },
+    "permissions" : [
+        "activeTab",
+        "storage",
+        "tabs"
+      ],
+      "host_permissions": [
+        "https://*/*",
+        "http://*/*"
+      ]
+  }
