@@ -14,8 +14,6 @@ This notes app was created for quick access to jot down notes (I'm guilty of for
 
 ## Features
 
-List the key features of your project using bullet points for easy readability.
-
 - Storing: As mentioned before, your notes are stored via local storage, ensuring that they are always accessible.
 - Editing: You can seamlessly edit notes on-demand, and the updated notes are accessible thanks to its local storage integration.
 - Deleting: To delete a note, double-click the note you want to delete. You will be prompted to confirm whether or not you intend to delete the note. Please note that there is currently no undo option, so the confirmation step is necessary.
